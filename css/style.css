@@ -12,6 +12,7 @@ header {
 	height: 4.375rem;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
+	display: block;
 }
 
 nav {
@@ -78,7 +79,6 @@ background image
 
 .main-body {
 	color: white;
-	text-align: center;
 }
 
 .main-body h2 {
@@ -95,7 +95,7 @@ background image
 	text-align: center;
 }
 
-#cta {
+.big-button {
 	font-family: "Arial", sans-serif;
 	width: 9.688rem;
 	background-color: #f15a29;
@@ -105,4 +105,12 @@ background image
 	padding: 1rem 1.5rem;
 	font-weight: 300;
 	margin: 0 auto;
+	line-height: 1.33;
+	display: block;
+}
+
+.big-button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+	border-color: #cf3d0e;
 }

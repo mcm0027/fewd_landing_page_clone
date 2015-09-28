@@ -1,7 +1,11 @@
 body {
 	background-color: LightGrey;
+	-webkit-font-smotthing: antialiased;
 }
 
+/************
+Header
+**************/
 header {
 	width: 100%;
 	background-color: #fff;
@@ -10,43 +14,85 @@ header {
 	font-family: 'Roboto', sans-serif;
 }
 
-.headbar {
-	max-width: 60%;
-	margin: 0 auto;
+nav {
+	height:70px;
 	padding: 0 0.938rem;
-	display: block;
+	width: 60%;
+	margin: 0 auto;
 	box-sizing: border-box;
+	min-width: 37.5rem;
+	display: block;
 }
 
-.headbar img {
+nav img {
 	width: 26px;
 	display: inline-block;
 	float: left;
 	height: 4.375rem;
-	padding-left: 0.938rem;
 }
 
 .header-links {
 	display: inline-block;
 	float: right;
-	padding-right: 0.938rem;
 	margin-top: 1.7rem;
 	font-size: 1.04rem;
+	padding-left: 0;
 }
 
 .header-links li {
 	display: inline-block;
 	float: left;
 	margin-left: 1.563rem;
+	font-weight: 400;
+	height: 17px;
+	list-style: none;
+}
+
+.header-links li a {
 	color: #838994;
-	font-weight: 500;
+	font-style: none;
+	text-decoration: none;
 }
 
-#meet-link {
-	margin 
+.header-links li a:hover {
+	color:#333;
 }
 
-.header-links .active {
+.header-links .active a {
 	color: #4c5058;
 	font-weight: 500;
+}
+
+/****************
+background image
+*****************/
+
+.backgroundImg {
+	background-image: url(../img/first-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.main-body {
+	text-align: center;
+	color: white;
+}
+.main-body h2 {
+	margin: 0 auto;
+	font-size: 3.125rem;
+	font-weight: 300;
+}
+
+.main-body h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+	font-weight: 300;
+}
+
+#cta {
+	font-family: "Arial", sans-serif;
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-style: none;
+	border-radius: 4px;
 }

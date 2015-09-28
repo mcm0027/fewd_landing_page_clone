@@ -71,22 +71,28 @@ background image
 	background-image: url(../img/first-background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 45.938rem;
+	overflow: auto;
+	background-position: center top;
 }
 
 .main-body {
-	text-align: center;
 	color: white;
+	text-align: center;
 }
+
 .main-body h2 {
-	margin: 0 auto;
+	margin: 17.5rem auto 0 auto;
 	font-size: 3.125rem;
 	font-weight: 300;
+	text-align: center;
 }
 
 .main-body h3 {
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
 	font-weight: 300;
+	text-align: center;
 }
 
 #cta {
@@ -95,4 +101,8 @@ background image
 	background-color: #f15a29;
 	border-style: none;
 	border-radius: 4px;
+	font-size: 1.25rem;
+	padding: 1rem 1.5rem;
+	font-weight: 300;
+	margin: 0 auto;
 }

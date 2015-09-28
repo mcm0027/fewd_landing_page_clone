@@ -1,28 +1,20 @@
 body {
 	background-color: LightGrey;
 	-webkit-font-smotthing: antialiased;
+	font-family: 'Roboto', sans-serif;
 }
 
 /************
 Header
 **************/
 header {
-	width: 100%;
-	background-color: #fff;
-	height: 4.375rem;
-	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
 	display: block;
 }
 
 nav {
-	height:70px;
-	padding: 0 0.938rem;
-	width: 60%;
-	margin: 0 auto;
-	box-sizing: border-box;
-	min-width: 37.5rem;
-	display: block;
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
 }
 
 nav img {
@@ -32,6 +24,15 @@ nav img {
 	height: 4.375rem;
 }
 
+.content{
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	padding: 0 0.938rem;
+	height:70px;
+	box-sizing: border-box;
+	min-width: 37.5rem;
+}
 .header-links {
 	display: inline-block;
 	float: right;
@@ -113,4 +114,48 @@ background image
 	background-color: #d9400e;
 	cursor: pointer;
 	border-color: #cf3d0e;
+}
+
+/***********
+icon section
+********/
+
+#icon-section {
+	background-color: white;
+	text-align: center;
+	font-weight: 300;
+	padding: 7.875rem 0 5rem;
+	color: #1d1e21;
+	display: inline-block;
+    width: 100%;
+}
+
+#icon-section h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.75rem;
+	padding: 0 0 3.125rem;
+}
+
+#three-icons li {
+	width: 33%;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+}
+
+#three-icons img {
+	width: 127px;
+}
+
+#three-icons ul {
+	padding: 0;
+}
+
+#three-icons h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0 1.875rem;
 }

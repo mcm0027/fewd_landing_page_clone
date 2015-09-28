@@ -1,0 +1,52 @@
+body {
+	background-color: LightGrey;
+}
+
+header {
+	width: 100%;
+	background-color: #fff;
+	height: 4.375rem;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.headbar {
+	max-width: 60%;
+	margin: 0 auto;
+	padding: 0 0.938rem;
+	display: block;
+	box-sizing: border-box;
+}
+
+.headbar img {
+	width: 26px;
+	display: inline-block;
+	float: left;
+	height: 4.375rem;
+	padding-left: 0.938rem;
+}
+
+.header-links {
+	display: inline-block;
+	float: right;
+	padding-right: 0.938rem;
+	margin-top: 1.7rem;
+	font-size: 1.04rem;
+}
+
+.header-links li {
+	display: inline-block;
+	float: left;
+	margin-left: 1.563rem;
+	color: #838994;
+	font-weight: 500;
+}
+
+#meet-link {
+	margin 
+}
+
+.header-links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
